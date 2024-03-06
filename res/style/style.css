@@ -196,12 +196,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #e036ff;
-    background-color: #e036ff;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #482673;
 }
 
 .navbar-default .navbar-toggle:hover,
