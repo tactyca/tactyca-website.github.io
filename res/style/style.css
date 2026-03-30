@@ -72,6 +72,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-purple {
+    background-color: #482673;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -336,10 +340,10 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 25px;
     text-transform: none;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
 }
 
@@ -735,6 +739,32 @@ body {
         transform: translateY(15%);
     }
     to { opacity: 1 }
+}
+
+.buttonC {
+    display: inline-block;
+    padding: 14px 28px;
+    margin-top: 30px;
+    background: #e036ff;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.buttonCH {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #e036ff;
+    color: #482673;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.buttonC:hover {
+    background: #FFFFFF;
+    color: #482673;
 }
 
 
